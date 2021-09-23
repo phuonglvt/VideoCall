@@ -1,0 +1,24 @@
+{
+  "name": "demo-video-call",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch './src/**/*.ts' --exec 'ts-node' ./src/server.ts",
+    "start": "ts-node ./src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.7.36",
+    "@types/node": "^14.14.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11",
+    "socket.io": "^2.3.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
